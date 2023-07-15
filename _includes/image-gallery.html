@@ -1,0 +1,7 @@
+<!-- TODO: create image gallery instead -->
+{% assign images = include.images | newline_to_br | split: "<br />" %}
+<div class="image-gallery">
+  {% for image in images %}
+  <img src="{{ image }}">
+  {% endfor %}
+</div>

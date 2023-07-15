@@ -1,21 +1,21 @@
 main:
-  - name: "Services"
+  - name: "Usługi"
     url: "/services/"
     weight: 2
-  - name: "Team"
-    url: "/team/"
+  - name: "Galeria"
+    url: "/gallery/"
     weight: 3
-  - name: "About"
-    url: "/about/"
-    weight: 4
-  - name: "Contact"
+#  - name: "O Firmie"
+#    url: "/about/"
+#    weight: 4
+  - name: "Kontakt"
     url: "/contact/"
     weight: 5
 
 footer:
-  - name: "Home"
+  - name: "Start"
     url: "/"
     weight: 1
-  - name: "Contact"
+  - name: "Kontakt"
     url: "/contact/"
     weight: 2

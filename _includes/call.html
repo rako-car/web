@@ -1,7 +1,7 @@
 <div class="call">
   <div class="call-box-top">
     {% if site.data.contact.phone %}
-        <div class="call-phone"><strong>Phone: </strong> {{ site.data.contact.phone }} </div>
+        <div class="call-phone"><strong>Telefon: </strong> {{ site.data.contact.phone }} </div>
     {% endif %}
     {% if site.data.contact.email %}
     <div class="call-email"><strong>Email: </strong>
@@ -10,10 +10,18 @@
       </a>
     </div>
     {% endif %}
+    {% if site.data.contact.address %}
+      <div class="call-address"><strong>Adres: </strong> {{ site.data.contact.address }} </div>
+    {% endif %}
+    {% if site.data.contact.show_map %}
+      <div class="call-map">
+        <iframe src="{{ site.data.contact.map_url }}" class="responsive-iframe" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    {% endif %}
   </div>
     {% if include.show_button %}
       <div class="call-box-bottom">
-        <a href="{{ site.data.contact.contact_button_link }}" class="button">Contact</a>
+        <a href="{{ site.data.contact.contact_button_link }}" class="button">Kontakt</a>
       </div>
     {% endif %}
 </div>

@@ -1,12 +1,13 @@
 ---
-title: Services
+title: Usługi
 layout: services
-description: Services
+description: Usługi
 intro_image: "images/illustrations/reading.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
 
-# Services that grow with your business
+# Usługi mechanika na każdą kieszeń
 
-Aliquam erat volutpat. Morbi nisl tortor, dignissim eget efficitur vel, auctor non felis. Fusce quis viverra mi. Aenean quis massa pretium, ullamcorper nisi eget, hendrerit odio.
+Witamy w Rako - Car, Twoim zaufanym wyborem we wszystkich potrzebach związanych z naprawą i konserwacją samochodów.
+Od zmiany opon po duże naprawy, doświadczony mechanik Rafał Kosmala jest oddany zapewnieniu najwyższej jakości usług.
