@@ -10,5 +10,5 @@ show_call_box: true
 
 # Rako-Car - Twój zaufany mechanik
 
-Witamy w Rako - Car, Twoim zaufanym wyborem we wszystkich potrzebach związanych z naprawą i konserwacją samochodów. Od zmiany opon po duże naprawy, doświadczony mechanik Rafał Kosmala jest oddany zapewnieniu najwyższej jakości usług.
+Witamy w Rako - Car, Twoim zaufanym wyborem we wszystkich potrzebach związanych z naprawą i konserwacją samochodów. Od zmiany opon po duże naprawy, doświadczony mechanik jest oddany zapewnieniu najwyższej jakości usług.
 
