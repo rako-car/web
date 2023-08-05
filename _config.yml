@@ -3,7 +3,7 @@ permalink: pretty
 title: 'Rako - Car'
 
 logo:
-  mobile: "images/logo/logo-mobile.svg"
+  mobile: "images/logo/logov2.svg"
   mobile_height: "32px"
   mobile_width: "32px"
   desktop: "images/logo/logov2.svg"
@@ -11,7 +11,7 @@ logo:
   desktop_width: "52px"
 
 home: 
-  limit_services: 6
+  limit_services: 12
 
 collections:
   services:

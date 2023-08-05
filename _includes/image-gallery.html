@@ -1,7 +1,18 @@
-<!-- TODO: create image gallery instead -->
-{% assign images = include.images | newline_to_br | split: "<br />" %}
+{% capture image_folder %}/images{{ page.url | basename: '.md' }}{% endcapture %}
+
 <div class="image-gallery">
-  {% for image in images %}
-  <img src="{{ image }}">
+  {% for file in site.static_files %}
+  {% unless file.path contains ".svg" %}
+  {% unless file.path contains "/plan." %}
+  {% if file.path contains image_folder %}
+  {% assign image_path = file.path | relative_url %}
+  <div class="gallery-item">
+    <a href="{{ image_path }}" data-lightbox="mygallery">
+      <img src="{{ image_path }}" alt="Investment image" class="property-image">
+    </a>
+  </div>
+  {% endif %}
+  {% endunless %}
+  {% endunless %}
   {% endfor %}
 </div>

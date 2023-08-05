@@ -1,7 +1,7 @@
 ---
 title: "Wymiana Oleju"
 date: 2023-07-15T10:00:00+01:00
-weight: 7
+weight: 17
 ---
 
 Regularna wymiana oleju jest kluczowa dla utrzymania silnika w dobrym stanie.
