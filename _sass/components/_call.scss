@@ -45,10 +45,11 @@
   }
   .call-address {
     margin-bottom: 5px;
+    max-width: 86%;
   }
   .call-map {
     position: relative;
-    width: 100%;
+    width: 90%;
     overflow: hidden;
     padding-top: 75%; /* 4:3 Aspect Ratio */
   }
