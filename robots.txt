@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /admin/
+Disallow: /secret-page.html
+
+User-agent: *
+Allow: /
+Sitemap: /sitemap.xml

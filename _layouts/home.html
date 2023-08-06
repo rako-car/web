@@ -16,7 +16,12 @@ bodyClass: "page-home"
 
 
       <div class="gallery-item">
-        <img src="{{ site.baseurl }}/images/index.car.diag.jpg" alt="Zdjęcie" >
+        <picture>
+          <!-- Serve the .webp image format if the browser supports it -->
+          <source srcset="{{ site.baseurl }}/images/index.car.diag.webp" type="image/webp">
+          <!-- Fallback to the original image format if the browser does not support .webp -->
+          <img src="{{ site.baseurl }}/images/index.car.diag.jpg" alt="Zdjęcie">
+        </picture>
       </div>
 
       {% if page.intro_image %}
@@ -30,7 +35,12 @@ bodyClass: "page-home"
 
 <div class="strip">
   <div class="gallery-item" style="max-height: 400px">
-    <img src="{{ site.baseurl }}/images/illustrations/repair.jpg" alt="Zdjęcie" >
+    <picture>
+      <!-- Serve the .webp image format if the browser supports it -->
+      <source srcset="{{ site.baseurl }}/images/illustrations/repair.webp" type="image/webp">
+      <!-- Fallback to the original image format if the browser does not support .webp -->
+      <img src="{{ site.baseurl }}/images/illustrations/repair.jpg" alt="Zdjęcie">
+    </picture>
   </div>
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">

@@ -1,7 +1,7 @@
 # engine-diagnostics.md
 ---
 title: "Diagnostyka i naprawa silnika"
-date: 2023-07-15T10:00:00+01:00
+date: 2023-07-22T10:00:00+01:00
 weight: 4
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Wymiana Baterii"
-date: 2023-07-15T10:00:00+01:00
+date: 2023-07-16T10:00:00+01:00
 weight: 16
 images: |
   https://lh3.googleusercontent.com/p/AF1QipO5kO-e8NjQPd8QLREB2-rbJBqhp5DkmVcumhBH=s680-w680-h510
