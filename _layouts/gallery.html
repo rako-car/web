@@ -78,7 +78,7 @@ bodyClass: "page-gallery"
                     {% assign image_path = file.path | relative_url %}
                     <div class="gallery-item">
                         <a href="{{ image_path }}" data-lightbox="mygallery">
-                            <img src="{{ image_path }}" alt="Investment image" class="property-image">
+                            <img src="{{ image_path }}" alt="Investment image" loading="lazy" class="property-image">
                         </a>
                     </div>
                     {% endif %}
