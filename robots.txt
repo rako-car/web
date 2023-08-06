@@ -4,4 +4,4 @@ Disallow: /secret-page.html
 
 User-agent: *
 Allow: /
-Sitemap: /sitemap.xml
+Sitemap: https://rako-car.pl/sitemap.xml
