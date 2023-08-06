@@ -1,4 +1,4 @@
-baseurl: "/"
+baseurl: "" # the subpath of your site, e.g. blog - !!! Do not start with / !!!
 url: "https://rako-car.pl"
 permalink: pretty
 title: 'Rako - Car'
