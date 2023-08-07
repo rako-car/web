@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>{% if page.title %}{{page.title}}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#FF0000"/>
   <link rel="icon" type="image/png" href="{{ '/images/logo/logov2.svg' | relative_url }}">
   <!-- Google Fonts CDN -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,7 +16,8 @@
   <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
   <link href="{{ '/assets/css/lightbox.min.css' | relative_url }}" rel="stylesheet">
 <!--  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">-->
-  
+
+  <link rel="canonical" href="{{ site.baseurl }}{{ page.url | absolute_url }}">
   {% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
   {% if page.meta_title %}<meta property="og:title" content="{{ page.meta_title }}"/>{% else %}<meta property="og:title" content="{{ page.title }}"/>{% endif %}
   <meta property="og:type" content="website"/>
