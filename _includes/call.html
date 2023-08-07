@@ -17,12 +17,12 @@
       <div class="call-map">
         <iframe title="Mapa" src="{{ site.data.contact.map_url }}" class="responsive-iframe" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
-    {% include navigate.html %}
     {% endif %}
   </div>
     {% if include.show_button %}
       <div class="call-box-bottom">
         <a href="{{ site.data.contact.contact_button_link }}" class="button">Kontakt</a>
+        {% include navigate.html %}
       </div>
     {% endif %}
 </div>
