@@ -1,7 +1,7 @@
 baseurl: "" # the subpath of your site, e.g. blog - !!! Do not start with / !!!
 url: "https://rako-car.pl"
 permalink: pretty
-title: 'Rako - Car'
+title: 'RaKo-Car'
 
 logo:
   mobile: "images/logo/logov2.svg"
