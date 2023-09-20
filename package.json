@@ -1,0 +1,24 @@
+{
+  "name": "rakocarwebsite",
+  "version": "1.0.0",
+  "description": "` .\\cwebp.exe -q 80 ..\\images\\index.car.diag.jpg -o ..\\images\\index.car.diag.webp `",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rako-car/web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rako-car/web/issues"
+  },
+  "homepage": "https://github.com/rako-car/web#readme",
+  "dependencies": {
+    "@tinacms/cli": "^1.5.29",
+    "tinacms": "^1.5.20"
+  }
+}

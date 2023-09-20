@@ -1,0 +1,5 @@
+fragment ServicesParts on Services {
+  title
+  weight
+  body
+}
