@@ -1,3 +1,6 @@
+start locally:
+npx tinacms dev -c "bundle exec jekyll serve"
+
 ### Run image conversion
 `
 .\cwebp.exe -q 80 ..\images\index.car.diag.jpg -o ..\images\index.car.diag.webp
