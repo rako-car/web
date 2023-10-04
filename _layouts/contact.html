@@ -9,6 +9,19 @@ bodyClass: "page-contact"
         <div class="col-12 col-md-8">
             <div class="service service-single">
                 <h1 class="title">{{page.title}}</h1>
+                {% include navigate.html %}
+
+                <a class="button"
+                   style="background-color: mediumblue"
+                   onclick="gtag('event', 'call', {});"
+                   href="tel: {{ site.data.contact.phone }}">Zadzwoń
+                </a>
+                <a class="button"
+                   style="background-color: green"
+                   onclick="gtag('event', 'email', {});"
+                   href="mailto: {{ site.data.contact.email }}">Email
+                </a>
+
                 {% include call.html show_button=false %}
                 <div class="content mt-4">{{content}}</div>
             </div>
