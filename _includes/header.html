@@ -8,13 +8,13 @@
     </div>
 
     <div class="header-middle">
-      <span>Rako - Car <a href="tel: {{ site.data.contact.phone }}">{{ site.data.contact.phone }}</a></span>
+      <span>Rako - Car <a onclick="gtag('event', 'call', {});" href="tel: {{ site.data.contact.phone }}">{{ site.data.contact.phone }}</a></span>
       {% include navigate.html %}
     </div>
     <div class="header-middle-mobile">
         <span>Rako - Car</span>
     <br>
-        <span><a href="tel: {{ site.data.contact.phone }}">{{ site.data.contact.phone }}</a> </span>
+        <span><a onclick="gtag('event', 'call', {});" href="tel: {{ site.data.contact.phone }}">{{ site.data.contact.phone }}</a> </span>
     </div>
     {% include main-menu.html %}
     {% include hamburger.html %}
